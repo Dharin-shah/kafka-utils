@@ -2,6 +2,7 @@ package streams.processors;
 
 import java.time.Duration;
 import java.util.ArrayList;
+import lombok.SneakyThrows;
 import org.apache.kafka.streams.processor.PunctuationType;
 import org.apache.kafka.streams.processor.api.Processor;
 import org.apache.kafka.streams.processor.api.ProcessorContext;
